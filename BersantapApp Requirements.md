@@ -9,6 +9,7 @@ UI:
 * Android
 * AngularJS + Bootstrap
 * iOS (future idea)
+* Hybrid Mobile
 
 Backend:
 
@@ -16,7 +17,7 @@ Backend:
 * Java + Spring + Apache CXF
 * NodeJS
 * .NET
-* Scala (future idea)
+* HHVM (future)
 * Phyton (future idea)
 
 System Integration (bila dibutuhkan):
@@ -50,5 +51,14 @@ Restourant Owner Requirements:
 * Reject order
 * Set open and close of the store
 
-
-
+Team member:
+Iesa >> Java, Android
+Iqbal >> NodeJs, PHP
+Yudi >> PHP, Angular
+Dafi >> .NET
+Sigit >> Java, Angular
+Fajri >> NodeJS, Angular
+Ravi >> Testing
+Ifan >> NodeJS, Hybrid Mobile
+Gus Arik >> Android
+Farian >> ?
