@@ -1,5 +1,5 @@
 # BersantapApp version 2
-#### see [Web prototype.jpg] for reference
+#### see [Web prototype.jpg](Web prototype.jpg) for reference
 #
 Website ini menyediakan informasi beberapa tempat berdasarkan kategori yang tersedia. Saat location user terdeteksi lewat browser, sistem akan otomatis menampilkan beberapa tempat tujuan terdekat di dalam peta. Tempat tujuan dikelompokkan berdasarkan beberapa kategori:
   - Makan : informasi rumah makan, warteg, cafe
@@ -11,6 +11,7 @@ Website ini menyediakan informasi beberapa tempat berdasarkan kategori yang ters
 
 ### Fungsional
 Secara umum semua kategori memiliki fungsionalitas yang sama, yaitu:
+
 1. Bisa menampilkan tempat tujuan terdekat dengan lokasi user sesuai dengan kategori yang dipilih
 2. Bisa search/mencari lokasi, lalu menampilkan tempat tujuan terdekat
 3. Tempat2 tujuan yang terlacak akan ditampilkan di dalam peta dan ditandai oleh icon pin.
@@ -21,12 +22,7 @@ Secara umum semua kategori memiliki fungsionalitas yang sama, yaitu:
 
 ### Struktural
 Secara garis besar ada 3 struktur utama dalam web ini:
+
 1. **Area Kategori** : berupa list vertical menampilkan kategori2 tujuan
 2. **Area Map** : berupa sebuah peta yang akan menampilkan lokasi2 yang ditandai dengan pin icon. Search textbox berupa autocomplete lokasi yang disediakan oleh provider Map.
 3. **Area Detail** : berupa deskripsi dari lokasi yang dipilih melalui klik pin icon di peta. Detail bisa terdiri dari nama tempat, alamat lengkap, nomor kontak, deskripsi service. Bagian bawah akan terdapat kotak review berasal dari beberapa user yang telah terdaftar.
-
-[//]: #
-   [Web prototype.jpg]: <Web prototype.jpg>
-
-
-
