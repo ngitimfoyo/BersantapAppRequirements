@@ -1,8 +1,9 @@
-mongodb collections
+Bersantap documents
 
 1. Kategori: _id, Nama
-2. Spot: _id, Nama, Alamat, Kontak, Deskripsi, Koordinat, Kategori, Review:{UserId, UserName, Rating, Komentar}
-3. User: _id, UserId, UserName, Phone
+2. Spot: _id, Nama, Alamat, Kontak, Deskripsi, Koordinat, Kategori, Komentar:{IdPengguna, Nama, Rating, Komentar}
+3. Pengguna: _id, IdPengguna, Nama, Telepon
+4. Kontak : { telpon: [ //array ], situs: "string", twitter: "str", facebook: "str" }
 
 sample document:
 Kategory = {_id: 234234234234, Nama: "Bengkel"}
@@ -15,18 +16,18 @@ Kontak: "0874 5454 98986;(021)8799 9998",
 Deskripsi: "Service ringan;service berat;ganti oli;ganti kabel;permak;cat"
 Koordinat: "-2,2342342434;3.23423424",
 Kategory : "Bengkel",
-Review: [{
-  UserId: "encep@gmail.com",
-  UserName: "Encep",
+Komentar: [{
+  IdPengguna: "encep@gmail.com",
+  Nama: "Encep",
   Rating: 3,
   Komentar: "Bengkel bagus, murah"
  },
  {
-  UserId: "vony@gmail.com",
-  UserName: "Vony",
+  IdPenggina: "vony@gmail.com",
+  Nama: "Vony",
   Rating: 4,
   Komentar: "Tempatnya bersih, recomended deh"
  }]
 }
 
-User = {_id: 2342424234, UserId: "encep@gmail.com", UserName: "Encep", Phone: "092342423494"}
+Pengguna = {_id: 2342424234, IdPengguna: "encep@gmail.com", Nama: "Encep", Telepon: "092342423494"}
