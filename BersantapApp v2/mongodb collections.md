@@ -1,9 +1,9 @@
 Bersantap documents
 
 1. Kategori: _id, Nama
-2. Spot: _id, Nama, Alamat, Kontak, Deskripsi, Koordinat, Kategori, Komentar:{IdPengguna, Nama, Rating, Komentar}
+2. Spot: _id, Nama, Alamat, Kontak: { telpon: [ //array ], situs: "string", twitter: "str", facebook: "str" }, Deskripsi, Koordinat, Kategori, Komentar: {IdPengguna, Nama, Rating, Komentar}
 3. Pengguna: _id, IdPengguna, Nama, Telepon
-4. Kontak : { telpon: [ //array ], situs: "string", twitter: "str", facebook: "str" }
+4. Kontak: { telpon: [ //array ], situs: "string", twitter: "str", facebook: "str" }
 
 sample document:
 Kategory = {_id: 234234234234, Nama: "Bengkel"}
