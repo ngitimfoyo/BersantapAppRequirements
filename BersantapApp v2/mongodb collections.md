@@ -5,6 +5,8 @@ mongodb collections
 3. User: _id, UserId, UserName, Phone
 
 sample document:
+Kategory = {_id: 234234234234, Nama: "Bengkel"}
+
 Spot = {
 _id: 4534534534,
 Nama: "Bengkel Eksotis",
@@ -26,3 +28,5 @@ Review: [{
   Komentar: "Tempatnya bersih, recomended deh"
  }]
 }
+
+User = {_id: 2342424234, UserId: "encep@gmail.com", UserName: "Encep", Phone: "092342423494"}
