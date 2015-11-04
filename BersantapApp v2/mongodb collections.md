@@ -6,7 +6,7 @@ Bersantap documents
 4. Kontak: { telpon: [ //array ], situs: "string", twitter: "str", facebook: "str" }
 
 sample document:
-Kategory = {_id: 234234234234, Nama: "Bengkel"}
+Kategori = {_id: 234234234234, Nama: "Bengkel"}
 
 Spot = {
 _id: 4534534534,
